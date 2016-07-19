@@ -1,6 +1,8 @@
 # resize-vagrant-vm
 A script to expand / resize vagrant virtual machines
 
+![Screenshot](screenshot.png)
+
 ### Usage
 You may have to edit the **VM_NAME** variable at the beginning of the script. It's set to read the name from a *config.yaml* file, but you can change it to your-vms-name in Virtual Box, e.g. `VM_NAME="My Development VM"`
 
