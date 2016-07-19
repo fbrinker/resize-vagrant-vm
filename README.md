@@ -7,7 +7,7 @@ You may have to edit the **VM_NAME** variable at the beginning of the script. It
 Call `./resize-vm.sh *X*` in your directory with the Vagrantfile.
 Replace `*X*` with a number for the dedicated size. To resize your VM to 20GB, execute `./resize-vm.sh 20`
 
-### How dies it work?
+### How does it work?
 The Script detects your hdd image for the machine, clones it, if necessary, into the .vdi format, resizes it and mounts it back. The old vmdk files is deleted afterwards and not needed anymore. If you want to resize it again, it resizes the vdi again.
 
 ### Limitations
